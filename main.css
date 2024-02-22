@@ -1,3 +1,35 @@
 *{
-    text-align: center;
+    margin: 0;
+    border: 0;
+    background-color: darkgrey;
+
+}
+
+.imagediv {
+    display: flex;
+    background-color: gray;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 20px; 
+}
+  
+.mainimg {
+    border-radius: 50%; 
+    height: 125px;
+    width: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.icons{
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    margin-left: 20px;
+}
+.content{
+    background-color: gray;
+    height: 200px;
 }
